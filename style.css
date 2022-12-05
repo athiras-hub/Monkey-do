@@ -6,7 +6,8 @@
 
     --base:#2e271f;
 
-     
+    --game_btn: #6a8c99; 
+
     --background:#184050;
 
 
@@ -33,18 +34,18 @@ h1{
     display: block;
     font-size: 42px;
     color: white;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 30px;
 }
 
 .score{
     color: white;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
 }
 
 .container{
-    height: 400px;
+    height: 50vh;
     aspect-ratio: 1/1;
     border: 15px solid var(--base);
     border-radius: 50%;
@@ -89,4 +90,24 @@ h1{
 
 .pressed{
     filter: brightness(160%);
+}
+
+.game_btn{
+    position: relative;
+    box-sizing: content-box;
+    margin-top: 30px;
+    background-color: var(--game_btn);
+    height:50px;
+    width: 100px;
+    border-radius:10px;
+    padding: 5px 8px;
+    text-align: center;
+    border: 0px;
+    font-weight: bold;
+    
+}
+
+
+.hidden{
+    display:none;
 }
